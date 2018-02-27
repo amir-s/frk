@@ -1,0 +1,33 @@
+{
+  "name": "frk",
+  "version": "0.0.2",
+  "description": "A real fork(2) for nodejs",
+  "main": "lib/frk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-s/frk.git"
+  },
+  "keywords": [
+    "node",
+    "fork",
+    "posix",
+    "fork(2)",
+    "child",
+    "child_process",
+    "waitpid",
+    "process"
+  ],
+  "author": "Amir Saboury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amir-s/frk/issues"
+  },
+  "homepage": "https://github.com/amir-s/frk#readme",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.9.2"
+  }
+}
